@@ -48,7 +48,7 @@ This pattern — read from a data source, enrich via external APIs, write result
 - Add an AI node (Claude/OpenAI) to generate a summary or next-action recommendation per enriched contact.
 
 ## Screenshot
-(workflow-diagram.png)
+workflow-diagram.png
 
 
 *Part of an ongoing portfolio of n8n automation workflows.*
