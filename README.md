@@ -35,7 +35,7 @@ This pattern — read from a data source, enrich via external APIs, write result
 
 ## Setup
 
-1. Import `contact-data-enrichment-workflow.json` into your n8n instance: **Workflows → Import from File**.
+1. Import `content data enrichment workflow.json` into your n8n instance: **Workflows → Import from File**.
 2. Connect your Google Sheets credentials, pointing at the contact sheet you want to enrich.
 3. No auth required for Genderize/Nationalize free tier (rate-limited) — for production use, add API keys in the HTTP Request nodes.
 4. Connect your email credentials in the notification node.
@@ -48,7 +48,9 @@ This pattern — read from a data source, enrich via external APIs, write result
 - Add an AI node (Claude/OpenAI) to generate a summary or next-action recommendation per enriched contact.
 
 ## Screenshot
-workflow-diagram.png
 
+![Workflow Canvas](workflow-diagram.png)
+
+---
 
 *Part of an ongoing portfolio of n8n automation workflows.*
