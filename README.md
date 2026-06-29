@@ -35,7 +35,7 @@ This pattern — read from a data source, enrich via external APIs, write result
 
 ## Setup
 
-1. Import `real-estate-workflow.json` into your n8n instance: **Workflows → Import from File**. *(Rename this file to match — see note below.)*
+1. Import `contact-data-enrichment-workflow.json` into your n8n instance: **Workflows → Import from File**.
 2. Connect your Google Sheets credentials, pointing at the contact sheet you want to enrich.
 3. No auth required for Genderize/Nationalize free tier (rate-limited) — for production use, add API keys in the HTTP Request nodes.
 4. Connect your email credentials in the notification node.
