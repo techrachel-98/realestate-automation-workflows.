@@ -1,5 +1,5 @@
 {
-  "name": "Real estate automation",
+  "name": "contact-data-enrichment-workflow",
   "nodes": [
     {
       "parameters": {
